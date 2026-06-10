@@ -10,11 +10,11 @@ Presentar una landing page clara para un gimnasio local, enfocada en comunicar h
 
 - Pagina principal responsive para escritorio y movil.
 - Secciones de descripcion, instalaciones, costos, horarios, ubicacion, entrenadores y contacto.
-- Planes visibles: visita de $70, mensualidad de $400 y anualidad de $2,400.
+- Planes visibles.
 - Mensaje destacado de acceso 24/7 y beneficios incluidos en cualquier plan.
 - Calculadora de calorias diarias basada en la formula Mifflin-St Jeor.
-- Mapa embebido de Veracruz, Ver.
-- Enlaces de contacto por WhatsApp, correo e Instagram.
+- Mapa 
+- Enlaces de contacto.
 - Galeria de imagenes para instalaciones y entrenadores.
 
 ## Tecnologias
