@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PRYME GYM | Entrena 24/7</title>
+    <meta
+      name="description"
+      content="Gimnasio 24/7 con area de fuerza, cardio, entrenamiento funcional, entrenadores y calculadora de calorias."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar" data-scrolled="false">
+      <a class="brand" href="#inicio" aria-label="PRYME GYM inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="./assets/pryme-logo.png" alt="" />
+          <span>PG</span>
+        </span>
+        <span>
+          <strong>PRYME</strong>
+          <small>Gym</small>
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Abrir menu</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Principal">
+        <a href="#gimnasio">Gimnasio</a>
+        <a href="#costos">Costos</a>
+        <a href="#tdee">Calorias</a>
+        <a href="#entrenadores">Entrenadores</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="signal">Abierto 24/7 en San Pedro, NL</p>
+          <h1>Entrena fuerte a la hora que tu vida lo permite</h1>
+          <p>
+            PRYME GYM combina area de fuerza, cardio, zona funcional y asesoria de
+            entrenadores para que llegues con un plan claro, aunque entrenes de madrugada.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#costos">Ver costos</a>
+            <a class="button button-secondary" href="#tdee">Calcular calorias</a>
+          </div>
+        </div>
+        <div class="hero-visual" data-image-slot="hero-gym">
+          <div class="photo-slot photo-slot-dark has-photo hero-photo">
+            <img src="./assets/facility-racks.webp" alt="Area de fuerza de PRYME GYM con racks y luces geometricas" />
+            <span>Instalaciones reales</span>
+            <strong>Area de fuerza y funcional</strong>
+            <small>Equipo listo para entrenar 24/7</small>
+          </div>
+          <div class="hours-chip">
+            <span>24/7</span>
+            Acceso todos los dias
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Datos rapidos">
+        <article>
+          <strong>400 m2</strong>
+          <span>espacio de entrenamiento</span>
+        </article>
+        <article>
+          <strong>24/7</strong>
+          <span>horario todos los dias</span>
+        </article>
+        <article>
+          <strong>3</strong>
+          <span>planes con beneficios completos</span>
+        </article>
+      </section>
+
+      <section class="section split-section" id="gimnasio">
+        <div>
+          <p class="section-tag">Descripcion</p>
+          <h2>Un gimnasio directo, completo y sin horarios imposibles</h2>
+          <p>
+            PRYME GYM es un espacio para personas que quieren entrenar con constancia:
+            principiantes, trabajadores con horarios variables y atletas recreativos que
+            necesitan equipo disponible, ambiente limpio y apoyo cuando toca ajustar tecnica.
+          </p>
+          <p>
+            El enfoque es simple: fuerza bien hecha, condicion fisica medible y rutinas que se
+            pueden sostener. Puedes entrenar por tu cuenta, pedir orientacion o trabajar con un
+            entrenador segun tu objetivo.
+          </p>
+        </div>
+        <div class="image-stack">
+          <div class="photo-slot has-photo training-floor-photo" data-image-slot="training-floor">
+            <img src="./assets/facility-main.webp" alt="Piso de entrenamiento de PRYME GYM con maquinas y mancuernas" />
+            <span>Area principal</span>
+            <strong>Piso de entrenamiento</strong>
+          </div>
+          <div class="photo-slot accent-slot has-photo cardio-photo" data-image-slot="members-training">
+            <img src="./assets/facility-cardio.png" alt="Zona de cardio de PRYME GYM con caminadoras y escaladoras" />
+            <span>Cardio</span>
+            <strong>Zona de resistencia</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section facilities" id="instalaciones">
+        <div class="section-heading">
+          <p class="section-tag">Instalaciones</p>
+          <h2>Todo lo esencial, listo para entrenar sin rodeos</h2>
+        </div>
+        <div class="facility-layout">
+          <div class="facility-list">
+            <article>
+              <span>01</span>
+              <h3>Area de fuerza</h3>
+              <p>Rack, barras olimpicas, mancuernas, bancos, poleas y maquinas selectorizadas.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Cardio y movilidad</h3>
+              <p>Caminadoras, bicicletas, elipticas, colchonetas y zona para movilidad.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Zona funcional</h3>
+              <p>Kettlebells, cuerda, trineo, cajones, ligas y espacio para circuitos.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Servicios</h3>
+              <p>Lockers, regaderas, estacionamiento, wifi y acceso con control digital.</p>
+            </article>
+          </div>
+          <div class="photo-slot tall-slot has-photo machines-photo" data-image-slot="facilities">
+            <img src="./assets/facility-machines.webp" alt="Instalaciones de PRYME GYM con maquinas de fuerza y luces azules" />
+            <span>Instalaciones</span>
+            <strong>Instalaciones del gimnasio</strong>
+          </div>
+        </div>
+        <div class="facility-gallery" aria-label="Mas fotos de instalaciones">
+          <img src="./assets/facility-dark.jpg" alt="Area oscura de pesas de PRYME GYM" />
+          <img src="./assets/facility-racks.webp" alt="Linea de racks y equipo de fuerza de PRYME GYM" />
+        </div>
+      </section>
+
+      <section class="section pricing" id="costos">
+        <div class="pricing-copy">
+          <p class="section-tag">Costos</p>
+          <h2>Planes claros para entrenar hoy</h2>
+          <p>
+            Sin costos escondidos. Con cualquier plan tienes acceso 24/7 a las areas de fuerza,
+            cardio, funcional, lockers, regaderas, wifi y apoyo en piso.
+          </p>
+        </div>
+        <div class="price-grid">
+          <article class="price-card">
+            <span class="price-name">Visita</span>
+            <strong>$70</strong>
+            <p>Entrada por dia con acceso completo a instalaciones y servicios.</p>
+          </article>
+          <article class="price-card featured">
+            <span class="price-name">Mensual</span>
+            <strong>$400</strong>
+            <p>Acceso 24/7 durante 30 dias, con todos los beneficios incluidos.</p>
+          </article>
+          <article class="price-card">
+            <span class="price-name">Anual</span>
+            <strong>$2,400</strong>
+            <p>Doce meses de acceso completo, ideal si ya vienes decidido.</p>
+          </article>
+        </div>
+        <div class="plan-includes" aria-label="Beneficios incluidos en cualquier plan">
+          <strong>Cualquier plan incluye:</strong>
+          <span>acceso 24/7</span>
+          <span>area de fuerza</span>
+          <span>cardio</span>
+          <span>zona funcional</span>
+          <span>lockers y regaderas</span>
+          <span>apoyo en piso</span>
+        </div>
+      </section>
+
+      <section class="section tdee-section" id="tdee">
+        <div class="tdee-copy">
+          <p class="section-tag">Calculadora de calorias</p>
+          <h2>Calcula cuanta energia necesitas al dia</h2>
+          <p>
+            Saber tus calorias diarias te ayuda a entrenar con un objetivo claro: mantener peso,
+            bajar grasa o subir masa muscular. La calculadora te da una base para ajustar comida,
+            rutina y progreso sin adivinar desde cero.
+          </p>
+          <p class="coach-note">
+            Comparte tus resultados con tu coach favorito de PRYME GYM y podra ajustar tu rutina
+            a tu objetivo, tu energia y tus dias reales de entrenamiento.
+          </p>
+        </div>
+        <form class="calculator" id="tdee-form">
+          <div class="input-grid">
+            <label>
+              <span>Sexo</span>
+              <select id="sex" required>
+                <option value="male">Hombre</option>
+                <option value="female">Mujer</option>
+              </select>
+            </label>
+            <label>
+              <span>Edad</span>
+              <input id="age" type="number" min="14" max="90" value="28" required />
+            </label>
+            <label>
+              <span>Peso (kg)</span>
+              <input id="weight" type="number" min="35" max="250" value="78" required />
+            </label>
+            <label>
+              <span>Altura (cm)</span>
+              <input id="height" type="number" min="120" max="230" value="176" required />
+            </label>
+            <label class="wide-field">
+              <span>Actividad</span>
+              <select id="activity" required>
+                <option value="1.2">Sedentario, poco movimiento</option>
+                <option value="1.375">Ligero, 1 a 3 dias por semana</option>
+                <option value="1.55" selected>Moderado, 3 a 5 dias por semana</option>
+                <option value="1.725">Alto, 6 a 7 dias por semana</option>
+                <option value="1.9">Atleta o trabajo fisico intenso</option>
+              </select>
+            </label>
+          </div>
+          <button class="button button-primary" type="submit">Calcular calorias</button>
+          <div class="result-panel" aria-live="polite">
+            <div>
+              <span>BMR</span>
+              <strong id="bmr-result">1,742 kcal</strong>
+            </div>
+            <div>
+              <span>Calorias diarias</span>
+              <strong id="tdee-result">2,700 kcal</strong>
+            </div>
+            <div>
+              <span>Bajar grasa</span>
+              <strong id="cut-result">2,300 kcal</strong>
+            </div>
+            <div>
+              <span>Subir masa</span>
+              <strong id="bulk-result">2,950 kcal</strong>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <section class="section schedule-location">
+        <div class="schedule-card" id="horarios">
+          <p class="section-tag">Horarios</p>
+          <h2>Abierto 24/7</h2>
+          <p>
+            Entrena cualquier dia, a cualquier hora. El acceso digital esta activo toda la semana.
+          </p>
+          <div class="schedule-grid">
+            <span>Lunes a domingo</span>
+            <strong>24 horas</strong>
+            <span>Dias festivos</span>
+            <strong>24 horas</strong>
+            <span>Asesoria en piso</span>
+            <strong>6:00 a 22:00</strong>
+          </div>
+        </div>
+        <div class="location-card" id="ubicacion">
+          <p class="section-tag">Ubicacion</p>
+          <h2>Av. Circuito Norte 1840</h2>
+          <p>Col. Valle del Acero, San Pedro Garza Garcia, Nuevo Leon.</p>
+          <div class="map-slot" data-image-slot="map">
+            <span>Mapa o fachada pendiente</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trainers" id="entrenadores">
+        <div class="section-heading">
+          <p class="section-tag">Entrenadores</p>
+          <h2>Guias presentes, no solo rutinas pegadas en la pared</h2>
+        </div>
+        <div class="trainer-grid">
+          <article class="trainer-card">
+            <div class="trainer-photo trainer-photo-left" data-image-slot="trainer-diego">
+              <img src="./assets/trainer-diego.jpeg" alt="Entrenador de PRYME GYM especialista en fuerza" />
+            </div>
+            <h3>Diego Vargas</h3>
+            <p>Hipertrofia, fuerza base y tecnica de ejercicios compuestos.</p>
+          </article>
+          <article class="trainer-card">
+            <div class="trainer-photo trainer-photo-right" data-image-slot="trainer-marco">
+              <img src="./assets/trainer-marco.jpeg" alt="Entrenador de PRYME GYM especialista en recomposicion corporal" />
+            </div>
+            <h3>Marco Salas</h3>
+            <p>Recomposicion corporal, volumen limpio y programacion semanal.</p>
+          </article>
+          <article class="trainer-card">
+            <div class="trainer-photo trainer-photo-center" data-image-slot="trainer-woman">
+              <img src="./assets/trainer-woman.png" alt="Entrenadora de PRYME GYM especialista en entrenamiento femenino" />
+            </div>
+            <h3>Ana Robles</h3>
+            <p>Entrenamiento femenino, fuerza, movilidad y definicion muscular.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact" id="contacto">
+        <div>
+          <p class="section-tag">Contacto</p>
+          <h2>Pide informes de PRYME GYM</h2>
+          <p>
+            Escribenos y te compartimos costos, acceso 24/7 y disponibilidad de entrenadores.
+          </p>
+          <div class="contact-links">
+            <a href="https://wa.me/528112345678" target="_blank" rel="noreferrer">WhatsApp: +52 81 1234 5678</a>
+            <a href="mailto:contacto@prymegym.mx">contacto@prymegym.mx</a>
+            <a href="https://instagram.com/prymegym" target="_blank" rel="noreferrer">@prymegym</a>
+          </div>
+        </div>
+        <form class="lead-form" id="lead-form">
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="name" placeholder="Tu nombre" required />
+          </label>
+          <label>
+            <span>Telefono</span>
+            <input type="tel" name="phone" placeholder="81 0000 0000" required />
+          </label>
+          <label>
+            <span>Interes</span>
+            <select name="interest">
+              <option>Mensualidad</option>
+              <option>Visita</option>
+              <option>Anualidad</option>
+              <option>Entrenador personal</option>
+            </select>
+          </label>
+          <button class="button button-primary" type="submit">Enviar solicitud</button>
+          <p class="form-status" id="form-status" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <strong>PRYME GYM</strong>
+      <span>Fuerza, cardio y entrenamiento funcional 24/7.</span>
+      <a href="#inicio">Volver arriba</a>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
