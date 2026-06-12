@@ -1,23 +1,23 @@
 # PRYME GYM
 
-Sitio web estatico para un gimnasio 24/7, con informacion de instalaciones, costos, entrenadores, ubicacion, contacto y una calculadora de calorias diarias.
+Sitio web estático para un gimnasio 24/7, con información de instalaciones, costos, entrenadores, ubicacion, contacto y una calculadora de calorías diarias.
 
 ## Objetivo
 
-Presentar una landing page clara para un gimnasio local, enfocada en comunicar horarios 24/7, beneficios incluidos en cualquier plan y una herramienta sencilla para estimar calorias de mantenimiento.
+Presentar una landing page clara para un gimnasio local, enfocada en comunicar horarios 24/7, beneficios incluidos en cualquier plan y una herramienta sencilla para estimar calorías de mantenimiento.
 
-## Caracteristicas
+## Características
 
-- Pagina principal responsive para escritorio y movil.
-- Secciones de descripcion, instalaciones, costos, horarios, ubicacion, entrenadores y contacto.
+- Página principal responsive para escritorio y móvil.
+- Secciones de descripción, instalaciones, costos, horarios, ubicacion, entrenadores y contacto.
 - Planes visibles.
 - Mensaje destacado de acceso 24/7 y beneficios incluidos en cualquier plan.
-- Calculadora de calorias diarias basada en la formula Mifflin-St Jeor.
+- Calculadora de calorías diarias basada en la formula Mifflin-St Jeor.
 - Mapa 
 - Enlaces de contacto.
-- Galeria de imagenes para instalaciones y entrenadores.
+- Galería de imágenes para instalaciones y entrenadores.
 
-## Tecnologias
+## Tecnologías
 
 - HTML5
 - CSS3
@@ -45,17 +45,17 @@ Presentar una landing page clara para un gimnasio local, enfocada en comunicar h
 
 ## Uso
 
-No requiere instalacion de dependencias ni servidor local. Para abrir el sitio, ejecuta `index.html` en el navegador.
+No requiere instalación de dependencias ni servidor local. Para abrir el sitio, ejecuta `index.html` en el navegador.
 
-Tambien puede publicarse directamente en GitHub Pages porque usa rutas relativas y archivos estaticos.
+También puede publicarse directamente en GitHub Pages ya que usa rutas relativas y archivos estáticos.
 
 ## Calculadora
 
 La calculadora estima:
 
 - Metabolismo basal.
-- Calorias diarias aproximadas.
+- Calorías diarias aproximadas.
 - Objetivo sugerido para bajar grasa.
 - Objetivo sugerido para subir masa muscular.
 
-Los resultados son orientativos y no reemplazan asesoria medica o nutricional.
+
